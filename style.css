@@ -1,0 +1,62 @@
+body {
+    background-color: #00968ec9;
+    color: aliceblue;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    box-sizing: border-box;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.container {
+    height: auto;
+    width: 25vh;
+    color: black;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #00bdd6;
+    box-shadow: 0 0 10px #0000001a;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#city {
+    height: 30px;
+    width: auto;
+    background-color: #00bdd6;
+    border: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px #0000001a;
+}
+
+::placeholder {
+    color: #000000;
+}
+
+#srchBtn {
+    height: 30px;
+    width: auto;
+    background-color: #00bdd6;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #0000001a;
+    cursor: pointer;
+}
+
+.weatherForm {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.emoji {
+    font-size: 25px;
+}
